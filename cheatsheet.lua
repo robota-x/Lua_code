@@ -54,11 +54,11 @@ function closured(divisor)
 end
 print(closured(10)(100))
 
--- recursion with anonymous function and local var. This sounds like a easy to break idea.
+-- recursion with anonymous function and local var. This sounds like a easy to break idea. 
 recur = function(number)
     print('counting down ' .. number)
     if number <= 0 then print('done.') return end
-    return recur(number - 1)
+    return recur(number - 1) -- tail call optimization
 end
 recur(15)
 
