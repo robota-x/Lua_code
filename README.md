@@ -1,1 +1,1 @@
-Several snippets to group experiments with the Lua scripting language.
+Several snippets to group experiments with the Lua scripting language. Just because I wanted to play with a ESP8266
